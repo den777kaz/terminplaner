@@ -1,0 +1,35 @@
+
+.header {
+    border-bottom: 1px solid var(--header-border);
+    /*border-bottom: 1px solid var(--white);*/
+}
+
+.navbar {
+    display: flex;
+    min-height: 50px;
+
+}
+
+
+.navbar__logo {
+    width: 100px;
+}
+
+.navbar__menu {
+    flex: 1;
+}
+
+.navbar__menu ul, .navbar__options ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.navbar__menu ul li:hover, .navbar__menu ul li.active, .navbar__options ul li:hover, .navbar__options ul li.active {
+    color: var(--purple);
+}
+
+.navbar__options ul {
+    justify-content: flex-end;
+}

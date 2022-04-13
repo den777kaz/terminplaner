@@ -1,0 +1,25 @@
+.eventList {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    background-color: var(--bg-prim);
+    border-radius: 5px;
+    padding: 10px;
+}
+.events {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 10px;
+}
+
+.events .event {
+    width: calc(100% / 4 - 30px);
+}

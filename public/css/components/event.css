@@ -1,0 +1,36 @@
+.quick-event {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 3px;
+    margin: 2px;
+    background-color: blue;
+    border-radius: 3px;
+}
+
+.quick-event_title,.quick-event_time {
+    font-size: 13px;
+    font-weight: 400;
+    cursor: default;
+}
+.quick-event_title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.quick-event_time  {
+    font-weight: 500;
+}
+
+.event {
+}
+
+.badge-work {
+    background-color: var(--badge-work);
+}
+.badge-family {
+    background-color: var(--badge-family);
+}
+
+.badge-privat {
+    background-color: var(--badge-privat);
+}
